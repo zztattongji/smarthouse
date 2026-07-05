@@ -1,0 +1,22 @@
+# build outputs
+output/
+build/
+dist/
+*.bin
+*.elf
+*.map
+*.fwpkg
+*.a
+*.log
+
+# local secrets
+.env
+*.key
+*.pem
+
+# caches
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+.vscode/

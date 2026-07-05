@@ -1,0 +1,16 @@
+# Smarthouse Board 4 — AI Voice
+config SMARTHOUSE_AI_UART_BUS
+    int "CI1302 UART Bus"
+    default 1
+
+config SMARTHOUSE_AI_UART_TXD_PIN
+    int "CI1302 UART TXD pin"
+    default 15
+
+config SMARTHOUSE_AI_UART_RXD_PIN
+    int "CI1302 UART RXD pin"
+    default 16
+
+config SMARTHOUSE_AI_UART_BAUD
+    int "CI1302 UART Baud Rate"
+    default 1000000

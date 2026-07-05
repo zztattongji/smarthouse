@@ -1,0 +1,25 @@
+# Smarthouse Board 2 — Sensor
+
+config SMARTHOUSE_SENSOR_I2C_BUS
+    int "I2C Bus ID"
+    default 1
+
+config SMARTHOUSE_SENSOR_I2C_SCL_PIN
+    int "I2C1 SCL pin"
+    default 0
+
+config SMARTHOUSE_SENSOR_I2C_SDA_PIN
+    int "I2C1 SDA pin"
+    default 1
+
+config SMARTHOUSE_SENSOR_UART_BUS
+    int "UART Bus ID (PMS5003)"
+    default 2
+
+config SMARTHOUSE_SENSOR_UART_TXD_PIN
+    int "PMS5003 UART TXD pin"
+    default 2
+
+config SMARTHOUSE_SENSOR_UART_RXD_PIN
+    int "PMS5003 UART RXD pin"
+    default 3

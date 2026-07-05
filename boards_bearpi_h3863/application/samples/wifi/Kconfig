@@ -1,0 +1,20 @@
+#===============================================================================
+# @brief    Kconfig file.
+# Copyright (c) @CompanyNameMagicTag 2023-2023. All rights reserved.
+#===============================================================================
+config SAMPLE_SUPPORT_STA_SAMPLE
+    bool "Support WIFI STA Sample"
+
+config SAMPLE_SUPPORT_SOFTAP_SAMPLE
+    bool "Support WIFI SoftAP Sample."
+    
+config SAMPLE_SUPPORT_UDP_CLIENT_SAMPLE
+    bool "Support UDP Client Sample."
+
+config SAMPLE_SUPPORT_MQTT_SAMPLE
+    bool "Support MQTT Sample (Huawei Cloud IoT)"
+
+config SAMPLE_SUPPORT_SMARTHOUSE_GATEWAY
+    bool "Support Smarthouse Gateway Board (Board 1)"
+    help
+        Smarthouse Board 1: WiFi+MQTT+SLE Server+health score+diagnostics.

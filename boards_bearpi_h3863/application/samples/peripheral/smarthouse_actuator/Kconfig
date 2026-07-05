@@ -1,0 +1,48 @@
+# Smarthouse Board 3 — Actuator
+
+config SMARTHOUSE_ACTUATOR_PWM_CH_LED
+    int "LED PWM Channel"
+    default 0
+config SMARTHOUSE_ACTUATOR_PWM_CH_FAN
+    int "Fan PWM Channel"
+    default 1
+config SMARTHOUSE_ACTUATOR_PWM_CH_SERVO
+    int "Servo PWM Channel"
+    default 2
+config SMARTHOUSE_ACTUATOR_PWM_CH_IR
+    int "IR PWM Channel"
+    default 3
+
+config SMARTHOUSE_ACTUATOR_PIN_SERVO
+    int "SERVO_PWM pin"
+    default 0
+config SMARTHOUSE_ACTUATOR_PIN_BUZZER
+    int "BUZZER pin"
+    default 1
+config SMARTHOUSE_ACTUATOR_PIN_LED
+    int "LED_PWM pin"
+    default 2
+config SMARTHOUSE_ACTUATOR_PIN_FAN
+    int "FAN_PWM pin"
+    default 3
+config SMARTHOUSE_ACTUATOR_PIN_MOTOR_IA
+    int "MOTOR_IA pin"
+    default 4
+config SMARTHOUSE_ACTUATOR_PIN_MOTOR_IB
+    int "MOTOR_IB pin"
+    default 5
+config SMARTHOUSE_ACTUATOR_PIN_RELAY
+    int "RELAY_IN pin"
+    default 6
+config SMARTHOUSE_ACTUATOR_PIN_IR
+    int "IR_PWM pin"
+    default 7
+config SMARTHOUSE_ACTUATOR_PIN_KEY1
+    int "KEY1 pin"
+    default 8
+config SMARTHOUSE_ACTUATOR_PIN_KEY2
+    int "KEY2 pin"
+    default 9
+config SMARTHOUSE_ACTUATOR_PIN_PIR
+    int "PIR_IN pin"
+    default 11
